@@ -1,0 +1,289 @@
+CREATE (WW:Cecha {nazwa:'Walka Wręcz', skrot:'WW'})
+CREATE (US:Cecha {nazwa:'Umiejętności Strzeleckie', skrot:'US'})
+CREATE (K:Cecha {nazwa:'Krzepa', skrot:'K'})
+CREATE (Odp:Cecha {nazwa:'Odporność', skrot:'Odp'})
+CREATE (Zr:Cecha {nazwa:'Zręczność', skrot:'Zr'})
+CREATE (Int:Cecha {nazwa:'Inteligencja', skrot:'Int'})
+CREATE (SW:Cecha {nazwa:'Siła Woli', skrot:'SW'})
+CREATE (Ogd:Cecha {nazwa:'Ogłada', skrot:'Ogd'})
+CREATE (A:Cecha {nazwa:'Ataki', skrot:'A'})
+CREATE (Zyw:Cecha {nazwa:'Żywotność', skrot:'Żyw'})
+CREATE (Sz:Cecha {nazwa:'Szybkość', skrot:'Sz'})
+CREATE (Mag:Cecha {nazwa:'Magia', skrot:'Mag'})
+
+
+
+
+CREATE (Akolita:Pro {nazwa:'Akolita'})
+CREATE (Banita:Pro {nazwa:'Banita'})
+CREATE (BerserkerZNorski:Pro {nazwa:'Berserker z Norski'})
+CREATE (Chlop:Pro {nazwa:'Chłop'})
+CREATE (CiuraObozowa:Pro {nazwa:'Ciura Obozowa'})
+CREATE (Cyrkowiec:Pro {nazwa:'Cyrkowiec'})
+CREATE (Cyrulik:Pro {nazwa:'Cyrulik'})
+CREATE (Fanatyk:Pro {nazwa:'Fanatyk'})
+CREATE (Flisak:Pro {nazwa:'Flisak'})
+CREATE (Giermek:Pro {nazwa:'Giermek'})
+CREATE (Gladiator:Pro {nazwa:'Gladiator'})
+CREATE (Goniec:Pro {nazwa:'Goniec'})
+CREATE (Gornik:Pro {nazwa:'Górnik'})
+CREATE (Guslarz:Pro {nazwa:'Guślarz'})
+CREATE (HienaCmentarna:Pro {nazwa:'Hiena cmentarna'})
+CREATE (Kanciarz:Pro {nazwa:'Kanciarz'})
+CREATE (KozakKislevski:Pro {nazwa:'Kozak kislevski'})
+CREATE (Lesnik:Pro {nazwa:'Leśnik'})
+CREATE (Lowca:Pro {nazwa:'Łowca'})
+CREATE (LowcaNagrod:Pro {nazwa:'Łowca Nagród'})
+CREATE (Mieszczanin:Pro {nazwa:'Mieszczanin'})
+CREATE (Mytnik:Pro {nazwa:'Mytnik'})
+CREATE (Najemnik:Pro {nazwa:'Najemnik'})
+CREATE (Ochotnik:Pro {nazwa:'Ochotnik'})
+CREATE (Ochroniarz:Pro {nazwa:'Ochroniarz'})
+CREATE (Oprych:Pro {nazwa:'Oprych'})
+CREATE (Paz:Pro {nazwa:'Paź'})
+CREATE (Podzegacz:Pro {nazwa:'Podżegacz'})
+CREATE (PorywaczZwlok:Pro {nazwa:'Porywacz Zwłok'})
+CREATE (Poslaniec:Pro {nazwa:'Posłaniec'})
+CREATE (Przemytnik:Pro {nazwa:'Przemytnik'})
+CREATE (Przepatrywacz:Pro {nazwa:'Przepatrywacz'})
+CREATE (Przewoznik:Pro {nazwa:'Przewoźnik'})
+CREATE (Rybak:Pro {nazwa:'Rybak'})
+CREATE (RzecznikRodu:Pro {nazwa:'Rzecznik rodu'})
+CREATE (Rzemieslnik:Pro {nazwa:'Rzemieślnik'})
+CREATE (Rzezimieszek:Pro {nazwa:'Rzezimieszek'})
+CREATE (Skryba:Pro {nazwa:'Skryba'})
+CREATE (Sluga:Pro {nazwa:'Sługa'})
+CREATE (Straznik:Pro {nazwa:'Strażnik'})
+CREATE (StraznikDrog:Pro {nazwa:'Strażnik Dróg'})
+CREATE (StraznikPol:Pro {nazwa:'Strażnik Pól'})
+CREATE (StraznikWiezienny:Pro {nazwa:'Strażnik Więzienny'})
+CREATE (Szczurolap:Pro {nazwa:'Szczurołap'})
+CREATE (SzermierzEstalijski:Pro {nazwa:'Szermierz estalijski'})
+CREATE (Szlachcic:Pro {nazwa:'Szlachcic'})
+CREATE (Smieciarz:Pro {nazwa:'Śmieciarz'})
+CREATE (Tarczownik:Pro {nazwa:'Tarczownik'})
+CREATE (UczenCzarodzieja:Pro {nazwa:'Uczeń czarodzieja'})
+CREATE (Weglarz:Pro {nazwa:'Węglarz'})
+CREATE (Wloczykij:Pro {nazwa:'Włóczykij'})
+CREATE (WojownikKlanowy:Pro {nazwa:'Wojownik Klanowy'})
+CREATE (Woznica:Pro {nazwa:'Woźnica'})
+CREATE (ZabojcaTrolli:Pro {nazwa:'Zabójca Trolli'})
+CREATE (Zarzadca:Pro {nazwa:'Zarządca'})
+CREATE (Zlodziej:Pro {nazwa:'Złodziej'})
+CREATE (Zak:Pro {nazwa:'Żak'})
+CREATE (Zeglarz:Pro {nazwa:'Żeglarz'})
+CREATE (Zolnierz:Pro {nazwa:'Żołnierz'})
+CREATE (ZolnierzOkretowy:Pro {nazwa:'Żołnierz Okrętowy'})
+
+
+
+CREATE (Arcykaplan:Adv {nazwa:'Arcykapłan'})
+CREATE (Arcymag:Adv {nazwa:'Arcymag'})
+CREATE (Arystokrata:Adv {nazwa:'Arystokrata'})
+CREATE (Bard:Adv {nazwa:'Bard'})
+CREATE (Biczownik:Adv {nazwa:'Biczownik'})
+CREATE (Bosman:Adv {nazwa:'Bosman'})
+CREATE (Demagog:Adv {nazwa:'Demagog'})
+CREATE (Dworzanin:Adv {nazwa:'Dworzanin'})
+CREATE (Fechtmistrz:Adv {nazwa:'Fechtmistrz'})
+CREATE (Herold:Adv {nazwa:'Herold'})
+CREATE (HersztBanitow:Adv {nazwa:'Herszt Banitów'})
+CREATE (Inzynier:Adv {nazwa:'Inżynier'})
+CREATE (Kapitan:Adv {nazwa:'Kapitan'})
+CREATE (Kaplan:Adv {nazwa:'Kapłan'})
+CREATE (Karczmarz:Adv {nazwa:'Karczmarz'})
+CREATE (KsiazeZlodziei:Adv {nazwa:'Książę Złodziei'})
+CREATE (Kupiec:Adv {nazwa:'Kupiec'})
+CREATE (LesnyDuch:Adv {nazwa:'Leśny Duch'})
+CREATE (LowcaCzarownic:Adv {nazwa:'Łowca Czarownic'})
+CREATE (LowcaWampirow:Adv {nazwa:'Łowca Wampirów'})
+CREATE (Majordomus:Adv {nazwa:'Majordomus'})
+CREATE (Medyk:Adv {nazwa:'Medyk'})
+CREATE (MistrzCieni:Adv {nazwa:'Mistrz Cieni'})
+CREATE (MistrzGildii:Adv {nazwa:'Mistrz Gildii'})
+CREATE (MistrzMagii:Adv {nazwa:'Mistrz Magii'})
+CREATE (MistrzRzemiosla:Adv {nazwa:'Mistrz Rzemiosła'})
+CREATE (MistrzZakonny:Adv {nazwa:'Mistrz Zakonny'})
+CREATE (Nawigator:Adv {nazwa:'Nawigator'})
+CREATE (Odkrywca:Adv {nazwa:'Odkrywca'})
+CREATE (Oficer:Adv {nazwa:'Oficer'})
+CREATE (Oprawca:Adv {nazwa:'Oprawca'})
+CREATE (Paser:Adv {nazwa:'Paser'})
+CREATE (Rajtar:Adv {nazwa:'Rajtar'})
+CREATE (Reketer:Adv {nazwa:'Reketer'})
+CREATE (Rozbojnik:Adv {nazwa:'Rozbójnik'})
+CREATE (Rycerz:Adv {nazwa:'Rycerz'})
+CREATE (Sierzant:Adv {nazwa:'Sierżant'})
+CREATE (Skrytobojca:Adv {nazwa:'Skrytobójca'})
+CREATE (Strzelec:Adv {nazwa:'Strzelec'})
+CREATE (Szampierz:Adv {nazwa:'Szampierz'})
+CREATE (Szarlatan:Adv {nazwa:'Szarlatan'})
+CREATE (Szpieg:Adv {nazwa:'Szpieg'})
+CREATE (Uczony:Adv {nazwa:'Uczony'})
+CREATE (Urzednik:Adv {nazwa:'Urzędnik'})
+CREATE (Weteran:Adv {nazwa:'Weteran'})
+CREATE (WedrownyCzarodziej:Adv {nazwa:'Wędrowny czarodziej'})
+CREATE (Wlamywacz:Adv {nazwa:'Włamywacz'})
+CREATE (WybraniecBozy:Adv {nazwa:'Wybraniec boży'})
+CREATE (ZabojcaDemonow:Adv {nazwa:'Zabójca demonów'})
+CREATE (ZabojcaOlbrzymow:Adv {nazwa:'Zabójca olbrzymów'})
+CREATE (Zakonnik:Adv {nazwa:'Zakonnik'})
+CREATE (Zwadzca:Adv {nazwa:'Zwadźca'})
+CREATE (Zwiadowca:Adv {nazwa:'Zwiadowca'})
+
+
+
+
+
+
+
+
+CREATE
+  (CiuraObozowa)-[:WE]->(Przemytnik),
+  (CiuraObozowa)-[:WE]->(Rzemieslnik),
+  (CiuraObozowa)-[:WE]->(Sluga),
+  (CiuraObozowa)-[:WE]->(Szarlatan),
+  (CiuraObozowa)-[:WE]->(Szpieg),
+  (CiuraObozowa)-[:WE]->(Weglarz),
+  (CiuraObozowa)-[:WE]->(Wloczykij)
+
+CREATE
+  (CiuraObozowa)-[:o {ile:'5'}]->(Odp),
+  (CiuraObozowa)-[:o {ile:'5'}]->(Int),
+  (CiuraObozowa)-[:o {ile:'5'}]->(SW),
+  (CiuraObozowa)-[:o {ile:'10'}]->(Zr),
+  (CiuraObozowa)-[:o {ile:'10'}]->(Ogd),
+  (CiuraObozowa)-[:o {ile:'2'}]->(Zyw)
+
+
+
+CREATE
+  (Przemytnik)-[:WE]->(Flisak),
+  (Przemytnik)-[:WE]->(Paser),
+  (Przemytnik)-[:WE]->(Przewoznik),
+  (Przemytnik)-[:WE]->(Szarlatan),
+  (Przemytnik)-[:WE]->(Tarczownik),
+  (Przemytnik)-[:WE]->(Zlodziej),
+  (Przemytnik)-[:WE]->(Zeglarz)
+
+CREATE 
+  (Przemytnik)-[:o {ile:'5'}]->(WW),
+  (Przemytnik)-[:o {ile:'5'}]->(US),
+  (Przemytnik)-[:o {ile:'10'}]->(Zr),
+  (Przemytnik)-[:o {ile:'10'}]->(Int),
+  (Przemytnik)-[:o {ile:'10'}]->(Ogd),
+  (Przemytnik)-[:o {ile:'2'}]->(Zyw)
+
+
+CREATE
+  (Rzemieslnik)-[:WE]->(Fanatyk),
+  (Rzemieslnik)-[:WE]->(Inzynier),
+  (Rzemieslnik)-[:WE]->(Kupiec),
+  (Rzemieslnik)-[:WE]->(MistrzRzemiosla),
+  (Rzemieslnik)-[:WE]->(Ochotnik)
+
+CREATE 
+  (Rzemieslnik)-[:o {ile:'5'}]->(K),
+  (Rzemieslnik)-[:o {ile:'5'}]->(Odp),
+  (Rzemieslnik)-[:o {ile:'5'}]->(Int),
+  (Rzemieslnik)-[:o {ile:'10'}]->(Zr),
+  (Rzemieslnik)-[:o {ile:'10'}]->(SW),
+  (Rzemieslnik)-[:o {ile:'2'}]->(Zyw)
+
+
+
+CREATE
+  (Sluga)-[:WE]->(CiuraObozowa),
+  (Sluga)-[:WE]->(Karczmarz),
+  (Sluga)-[:WE]->(Mieszczanin),
+  (Sluga)-[:WE]->(Paz),
+  (Sluga)-[:WE]->(Podzegacz),
+  (Sluga)-[:WE]->(Poslaniec),
+  (Sluga)-[:WE]->(Szpieg),
+  (Sluga)-[:WE]->(Zlodziej)
+
+CREATE
+  (Sluga)-[:o {ile:'5'}]->(WW),
+  (Sluga)-[:o {ile:'5'}]->(K),
+  (Sluga)-[:o {ile:'10'}]->(Zr),
+  (Sluga)-[:o {ile:'5'}]->(Int),
+  (Sluga)-[:o {ile:'10'}]->(SW),
+  (Sluga)-[:o {ile:'5'}]->(Ogd),
+  (Sluga)-[:o {ile:'2'}]->(Zyw)
+
+
+
+CREATE
+  (Szarlatan)-[:WE]->(Banita),
+  (Szarlatan)-[:WE]->(Demagog),
+  (Szarlatan)-[:WE]->(Szpieg),
+  (Szarlatan)-[:WE]->(Urzednik),
+  (Szarlatan)-[:WE]->(Wlamywacz)
+
+CREATE 
+  (Szarlatan)-[:o {ile:'10'}]->(WW),
+  (Szarlatan)-[:o {ile:'10'}]->(US),
+  (Szarlatan)-[:o {ile:'5'}]->(K),
+  (Szarlatan)-[:o {ile:'10'}]->(Odp),
+  (Szarlatan)-[:o {ile:'15'}]->(Zr),
+  (Szarlatan)-[:o {ile:'15'}]->(Int),
+  (Szarlatan)-[:o {ile:'15'}]->(SW),
+  (Szarlatan)-[:o {ile:'25'}]->(Ogd),
+  (Szarlatan)-[:o {ile:'4'}]->(Zyw)
+
+
+CREATE
+  (Szpieg)-[:WE]->(MistrzCieni),
+  (Szpieg)-[:WE]->(Odkrywca),
+  (Szpieg)-[:WE]->(Reketer),
+  (Szpieg)-[:WE]->(Skrytobojca)
+
+CREATE 
+  (Szpieg)-[:o {ile:'15'}]->(WW),
+  (Szpieg)-[:o {ile:'15'}]->(US),
+  (Szpieg)-[:o {ile:'5'}]->(K),
+  (Szpieg)-[:o {ile:'10'}]->(Odp),
+  (Szpieg)-[:o {ile:'20'}]->(Zr),
+  (Szpieg)-[:o {ile:'20'}]->(Int),
+  (Szpieg)-[:o {ile:'35'}]->(SW),
+  (Szpieg)-[:o {ile:'20'}]->(Ogd),
+  (Szpieg)-[:o {ile:'1'}]->(A),
+  (Szpieg)-[:o {ile:'4'}]->(Zyw)
+
+
+
+CREATE
+  (Weglarz)-[:WE]->(Cyrkowiec),
+  (Weglarz)-[:WE]->(Lesnik),
+  (Weglarz)-[:WE]->(Smieciarz),
+  (Weglarz)-[:WE]->(Zakonnik),
+  (Weglarz)-[:WE]->(Zlodziej),
+  (Weglarz)-[:WE]->(Zwiadowca)
+
+CREATE
+  (Weglarz)-[:o {ile:'5'}]->(WW),
+  (Weglarz)-[:o {ile:'5'}]->(K),
+  (Weglarz)-[:o {ile:'5'}]->(Odp),
+  (Weglarz)-[:o {ile:'5'}]->(Zr),
+  (Weglarz)-[:o {ile:'5'}]->(Int),
+  (Weglarz)-[:o {ile:'5'}]->(SW),
+  (Weglarz)-[:o {ile:'5'}]->(Ogd),
+  (Weglarz)-[:o {ile:'2'}]->(Zyw)
+
+
+
+CREATE
+  (Wloczykij)-[:WE]->(Cyrkowiec),
+  (Wloczykij)-[:WE]->(Lesnik),
+  (Wloczykij)-[:WE]->(Smieciarz),
+  (Wloczykij)-[:WE]->(Zakonnik),
+  (Wloczykij)-[:WE]->(Zlodziej),
+  (Wloczykij)-[:WE]->(Zwiadowca)
+
+CREATE
+  (Wloczykij)-[:o {ile:'5'}]->(WW),
+  (Wloczykij)-[:o {ile:'10'}]->(US),
+  (Wloczykij)-[:o {ile:'10'}]->(Zr),
+  (Wloczykij)-[:o {ile:'5'}]->(Int),
+  (Wloczykij)-[:o {ile:'5'}]->(Ogd),
+  (Wloczykij)-[:o {ile:'2'}]->(Zyw)
